@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    color: aliceblue;
+    background-color: maroon;
+}
+
+#text{
+    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    background-color: aquamarine;
+    padding: 2vw 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw 2vh;
+}
+
+h1{
+    font-size: 10vw;
+}
+
+h2{
+    font-size: 3vw;
+}
+
+#nadpis-a-podnadpis{
+    background-color: blueviolet;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hl-text{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding: 2vh 10vw;
+    font-size: 2.5vw;
+}
